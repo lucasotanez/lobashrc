@@ -59,10 +59,9 @@ clear='\[\e[00m\]'
 # PS1='[\u@\h \w]\$ '
 # PS1="${bold}${blue}  ${white}[${blue}\u${white}@${purple}\h ${black}\w${white}] ${blue} \n ${bold}${yellow}󱞪 ${reg}${green}"
 # PS1="${bold}${blue}  ${white}[${blue}\u${white}@${purple}\h ${black}\w${white}] ${blue} ${reg}${green}" 
-# PS1="${bold}${blue}  ${cyan}[${yellow}\u${white}@${purple}\h ${black}\w${cyan}] ${red}  ${reg}${green}" 
-# PS1="${bold}${blue}  ${white}[${yellow}\u${white}@${purple}\h ${black}\w${white}] ${red}${reg}${green}" 
+PS1="${bold}${blue}  ${cyan}[${yellow}\u${white}@${purple}\h ${black}\w${cyan}] ${red}  ${reg}${green}" 
 
-# return
+return
 # !!! toggle above return statement if using backgrounded styles
 
 # background color tags
